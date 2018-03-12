@@ -1,0 +1,55 @@
+body {
+  font-family:sans-serif;
+  border-style: solid;
+  border-color: rgb(206, 206, 206);
+  padding: 1em;
+  text-align:left;
+  box-shadow: 10px 10px 5px rgb(206, 206, 206);
+  width: 300px;
+  margin:0 auto;
+}
+.fact {
+  font-style:italic;
+
+
+}
+.list {
+  font-weight:bold;
+
+}
+.li{
+  list-style-type: none;
+  margin-left: 0em;
+
+}
+#information {
+  border-style: solid;
+  border-color: rgb(206, 206, 206);
+
+
+}
+.listall {
+  text-align:left;
+  margin:0;
+  padding:0;
+}
+h3 {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+img {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+li {
+  margin:0;
+  padding:0;
+}
+ul {
+  padding-left: 1em;
+}

@@ -1,0 +1,117 @@
+body {
+font-family: 'roboto', Times, serif;
+}
+.header {
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+margin-right: auto;
+margin-left: auto;
+border-bottom: 4px solid #7d97ad;
+}
+.header_inner {
+width: 20%;
+}
+.logo {
+width: 100%;
+margin-right: 0;
+vertical-align: top;
+}
+.header_content {
+width: 80%;
+}
+.name {
+font-weight: 100;
+font-size: 34px;
+text-align: right;
+text-transform: uppercase;
+}
+.work {
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+}
+.work_title {
+font-weight: 400;
+font-size: 16px;
+text-align: right;
+text-transform: uppercase;
+}
+.main_theme {
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+padding-top: 10px;
+}
+.main_pic_theme {
+width: 100%;
+}
+.main_pic {
+width: 100%;
+border: 3px solid #02b3e4;
+}
+.work {
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+h2 {
+font-weight: 100;
+font-size: 24px;
+color: #7d97ad;
+}
+p {
+text-align: center;
+font-size: 24px;
+color: #7d97ad;
+}
+.projects {
+width: 100%;
+display:flex;
+flex-direction: row;
+}
+.project1, .project2, .project3{
+width: calc(100%/3);
+margin-right: 10px;
+margin-left: auto;
+}
+.project3 {
+margin-right: 0px;
+}
+.card, .mock, .pixel {
+width: 100%;
+}
+@media screen and (max-width: 549px) {
+.logo {
+display: none;
+}
+.name {
+font-size: 24px;
+text-align: right;
+text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+.projects {
+flex-direction: column;
+}
+.project1 {
+order: 1;
+width: 100%;
+}
+.project2 {
+order: 2;
+width: 100%;
+}
+.project3 {
+order: 3;
+width: 100%;
+}
+}
+@media screen and (min-width: 780px) {
+.name {
+font-size: 48px;
+}
+.work_title {
+font-size: 24px;
+}
+}
